@@ -1,0 +1,88 @@
+@charset "UTF-8";
+/*Creación del Font - Family */
+
+
+
+body {
+	/*
+	
+	background-image: url('background.png');
+	background-color: #f4f7d9;
+	background-repeat: no-repeat;
+	background-size: 21%;
+	background-position: bottom right;
+	background-attachment: fixed; */
+	font-family: Verdana;
+	
+}
+
+
+h1 {
+	/*Fuentes*/
+	
+	
+	font-size: 4em;
+	font-family: Anton;
+	color: #414239;
+	
+}
+
+.principal{
+	font-weight: bold;
+}
+
+.secundario{
+	font-style: italic;
+}
+
+hr {
+  height: 3px;
+  background-color: black;
+}
+
+h2{
+	font-family: Lobster;
+	font-size: 2em;
+	color: #9e0947;
+
+}
+
+h3{
+	
+	font-size: 1em;
+	color: #ce105c;
+}
+
+p{
+	text-align: justify;
+}
+
+img{
+	float: left;
+	margin-right: 10px;
+}
+
+.flex-container {
+     display: -webkit-flex;
+    display: flex;
+    -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+    
+    background-color: lightgrey;
+}
+
+.flex-item {
+   
+   -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+    margin: 10px;
+}
+
+img:hover {
+    opacity: 0.8;
+    
+}
+
+
