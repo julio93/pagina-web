@@ -1,0 +1,117 @@
+@charset "UTF-8";
+/*Creación del Font - Family */
+
+@font-face {
+    font-family: IndieFont;
+    src: url(IndieFlower.ttf);
+}
+
+
+body {
+	/*
+	
+	background-image: url('background.png');
+	background-color: #f4f7d9;
+	background-repeat: no-repeat;
+	background-size: 21%;
+	background-position: bottom right;
+	background-attachment: fixed; */
+	
+}
+
+
+h1 {
+	/*Fuentes*/
+	
+	
+	font-size: 4em;
+	text-align: center;
+	
+}
+
+div#info{
+
+	/*Fuentes*/
+	
+	
+	font-family: Arial;
+	font-size: 1.2em;
+	
+    
+    /*Box Model*/
+    
+    width: 50%;
+    -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+	padding: 10px;
+	
+    
+	
+	/*Background*/
+    
+    background-color: #cbccc1;
+	box-sizing: margin-box;
+	
+
+	/*Border*/
+    
+    border-style: solid;
+    border-width: 1pt;
+    
+
+	/*CSS3*/
+    
+    
+    
+    
+}
+
+hr {
+  height: 3px;
+  background-color: black;
+}
+
+h2.datos{
+	text-align: center;
+
+}
+
+label{
+border-radius: 25px;
+ background: white;
+ padding: 8px; 
+ margin-right: 10px;
+ border-width: 1.2pt;
+ box-shadow: 3px 3px 3px #f4d2d3;
+ background-clip: border-box;
+ 
+}
+
+span {
+ background-color: blue; 
+ border-radius: 30px;
+ background: blue;
+ padding: 8px; 
+ width: 20px;
+ color: white;
+  
+}
+
+
+img{
+	float: left;
+	margin-right: 10px;
+}
+
+p#year{
+	font-style: italic;
+}
+
+h1 ~ div {
+	/*Box Model*/
+	padding-bottom: 10px;
+}
